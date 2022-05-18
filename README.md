@@ -9,8 +9,6 @@ Using data from LendingClub, we will create and run Machine Learning modules to 
   - scikit-learn and imbalanced-learn libraries
 
 ## Results: 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
-
 ### Six learning modules
 
 #### Sampling Modules:
@@ -18,7 +16,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
     - The Random Oversampling model "instances of the minority class are randomly selected and added to the training set until the majority and minority classes are balanced."
     
    - Balanced Accuracy Score: 0.6438627638488825
-   - Precision:
+   - Precision: The precision is low for low risk and high for high risk loans.
    - Recall: high risk: .69/low risk: .59
     
     
@@ -28,7 +26,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
     - SMOTE stands for Synthetic Minority Oversampling Technique. It is where new values are created based on the proximity of minority values. 
     
    - Balanced Accuracy Score: 0.6628910844779521
-   - Precision:
+   - Precision: The precision is low for low risk and high for high risk loans.
    - Recall: high risk: .63/low risk: .69
    
    
@@ -38,7 +36,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
     - In Undersampling, the larger data is decreased to match the minority data. 
     
    - Balanced Accuracy Score: 0.6628910844779521
-   - Precision:
+   - Precision: The precision is low for low risk and high for high risk loans.
    - Recall: high risk: .69/low risk: .59
     
    
@@ -49,7 +47,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
     - Combining SMOTE and ENN (Edit Nearest Neighbors algorithms, first you oversample with SMOTE and then clean the data using undersampling. Any outliers will be dropped. 
     
    - Balanced Accuracy Score: 0.6309698848743621
-   - Precision:
+   - Precision: The precision is low for low risk and high for high risk loans.
    - Recall: high risk: .66/low risk: .60
     
     
@@ -59,7 +57,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 **5. Balanced Random Forest Classifier**
 
    - Balanced Accuracy Score: 0.773197051931573
-   - Precision:
+   - Precision: The precision is low for low risk and high for high risk loans.
    - Recall: high risk: .64/low risk: .90
 
   ![forest](img/randomforest.png)
@@ -68,10 +66,10 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
     - The model is trained and evaluated, then another model is trained using the knowlege from the previous model. Each model is built upon from the previous one. 
     
    - Balanced Accuracy Score: 0.9316600714093861
-   - Precision:
-   - Recall: high risk: ..92/low risk: .94
+   - Precision: The precision is low for low risk and high for high risk loans.
+   - Recall: high risk: .92/low risk: .94
    
 ![ensemble](img/easyensemble.png)
 
 ## Summary: 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+The Easy Ensemble ADaBoost Classifier had the highest recall scores out of all the models. It also had the highest accuracy score, at .931. Therefore, the Easy Ensemble AdaBoost Classifier is the best model to choose in determining credit risk. 
