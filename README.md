@@ -72,4 +72,4 @@ Using data from LendingClub, we will create and run Machine Learning modules to 
 ![ensemble](img/easyensemble.png)
 
 ## Summary: 
-The Easy Ensemble ADaBoost Classifier had the highest recall scores out of all the models. It also had the highest accuracy score, at .931. Therefore, the Easy Ensemble AdaBoost Classifier is the best model to choose in determining credit risk. 
+The Easy Ensemble AdaBoost Classifier had the highest recall scores out of all the models. It also had the highest accuracy score, at .931. Therefore, the Easy Ensemble AdaBoost Classifier is the best model to choose in determining credit risk. 
