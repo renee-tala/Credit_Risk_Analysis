@@ -35,9 +35,9 @@ Using data from LendingClub, we will create and run Machine Learning modules to 
 **3. Cluster Centroid Undersampling**
     - In Undersampling, the larger data is decreased to match the minority data. 
     
-   - Balanced Accuracy Score: 0.6628910844779521
+   - Balanced Accuracy Score: 0.5894579694171476
    - Precision: The precision is low for low risk and high for high risk loans.
-   - Recall: high risk: .69/low risk: .59
+   - Recall: high risk: .63/low risk: .55
     
    
 ![undersampling](img/undersampling.png)
